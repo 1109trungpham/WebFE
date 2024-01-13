@@ -1,0 +1,101 @@
+
+.frame_main {
+    box-sizing: border-box;
+    width: 40%;
+    margin-top: 95px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+
+.frame_account {
+    box-sizing: border-box;
+    border: 1px solid rgb(107, 88, 134);
+    padding-top :20px;
+    padding-bottom :40px;
+    border-radius: 5px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 14px 18px 0px rgba(0,0,0,0.2);
+}
+
+input[type=text3],
+select {
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid gray;
+
+}
+
+input[type=password],
+select {
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+input[type=submit3] {
+    text-align: center;
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+}
+
+input[type=submit3]:hover {
+    background-color: rgb(195, 155, 85);
+    color: black;
+}
+
+.form {
+    position:relative;
+}
+
+.form i {
+    position:absolute;
+    top: 16px;
+    left: 66px;
+}
+
+input {
+    transition: all 0.2s ease;
+}
+
+label {
+    position: absolute;
+    left: 250px;
+    top: 17px;
+    padding:0%;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    color: rgb(130, 130, 130);
+}
+
+.a_acc1 {
+    text-decoration: none;
+    color: black;
+}
+
+.a_acc1:hover {
+    color: red;
+}
+
+.a_acc2 {
+    text-decoration: none;
+    color: black;
+    margin-left: 10%;
+}
+
+.a_acc2:hover {
+    color: red;
+}

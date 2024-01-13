@@ -1,0 +1,33 @@
+
+
+.div_cart {
+    display: flex;
+    width:80%;
+    height: 80px;
+    margin-top: 90px;
+    margin-left: 10%;
+    height: 50px;
+    border-top: 4px solid red;
+    background-color:rgb(232, 225, 225);
+}
+
+.cart_button {
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 150px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 1px;
+}
+
+.cart_button:hover {
+    background-color: rgb(195, 155, 85);
+    color: white;
+    border: 2px solid rgb(195, 155, 85);
+}

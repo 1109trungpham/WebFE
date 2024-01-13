@@ -1,0 +1,51 @@
+.a_blog {
+    text-decoration: none;
+    color: rgb(167, 124, 124);
+}
+
+.a_blog:hover {
+    color: red;
+}
+
+.blog_container {
+    display:flex;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.blog_post {
+    display: flex; flex-wrap: wrap;
+    width:84%;
+    margin-left: 16%;
+}
+
+.blog_button {
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid pink;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 1px;
+}
+
+.blog_button:hover {
+    box-sizing: border-box;
+    background-color: rgb(195, 155, 85);
+    color: white;
+    border: 2px solid rgb(195, 155, 85);
+}
+
+.catego_blog {
+    margin-left: 35px;
+}
+
+input[type=text_blog],
+select {
+    padding: 12px 20px;
+}

@@ -1,0 +1,385 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+li {
+    display: block;
+    padding: 20px 30px;
+}
+
+.ul {
+    display:flex;
+    justify-content: center;
+}
+
+.ul li:hover {
+    color:red;
+}
+
+.dropdown {
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    padding: 10px 30px ;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color:rgb(130, 130, 130);
+}
+
+.dropdown-content a:hover {
+    color: black;
+}
+
+.dropdown-content2 a {
+    text-decoration: none;
+    color:rgb(130, 130, 130);
+}
+
+.dropdown-content2 a:hover {
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.dropdown2 {
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position:absolute;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    padding: 10px 30px ;
+    right: -500px;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display:flex;
+}
+
+.dropdown-content2 div {
+    margin: 10px;
+    padding: 0 20px;
+    width: 170px;
+}
+
+/* Click */
+#content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    top:0;
+    left:0;
+    width:100%;
+    transition-delay: 2s;
+    z-index: 2;
+}
+
+#content.active {
+    display: flex;
+    height: 270px;
+}
+
+#content2 {
+    display: none;
+    position: absolute;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    right: 17%;
+    top: 60px;
+}
+
+#content2.active {
+    display: flex;
+    justify-content: center;
+}
+
+.divfull {
+    position: relative;
+    margin-top: 0px;
+    background-color: rgb(238, 238, 238);
+    height: 650px;
+    margin-bottom: 150px;
+}
+
+.img1 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+}
+
+.div1 {
+    position: absolute;
+    height: 250px;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 25%;
+    padding: 0 40px;
+}
+
+.div1 p {
+    width: 60%;
+}
+
+.div1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.div1 div {
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.div1 div:hover {
+    background-color: red;
+    color:white;
+    transition: 0.2s;
+    border: none;
+}
+
+.div2 {
+    position: relative;
+    top: 500px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.div22 {
+    position:relative;
+    padding: 25px;
+    background-color: white;
+}
+
+.div222 {
+    position:absolute;
+    top: 70px;
+    z-index:1;
+    margin-left: 20px;
+}
+
+.div222 a {
+    text-decoration: none;
+    color:black;
+}
+
+.div222 a:hover {
+    color:red;
+}
+
+.div222 h3 {
+    width: 200px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.prd {
+    width: 280px;
+    height: 223/175*280px;
+    margin: 20px;
+}
+
+.demo {
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.relative {
+    position: relative;
+    width:700px;
+    height: 317px;
+    padding: 10px;
+}
+
+.absolute {
+    position: absolute;
+    width:300px;
+    top:70px;
+    left:80px;
+}
+
+.block2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.prd2 {
+    width:223px;
+    height: 223*892/700px;
+    margin: 20px;
+}
+
+.blog {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+div.blog div {
+    width: 350px;
+    padding: 20px;
+}
+
+div.blog div div:hover {
+    background-color: red;
+    color: white;
+}
+
+input[type=text],
+select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    text-align: center;
+    border:none;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(195, 155, 85);
+    color: white;
+    border: 2px solid rgb(195, 155, 85);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.container-ft {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(35, 40, 40);
+    padding:30px 0px 30px 100px;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(35, 40, 40);
+    padding:30px 0px 30px 100px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.ft p,i {
+    color: rgba(205, 195, 195, 0.7);
+    font-size: 17px;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.col2 h3 {
+    margin: 30px 100px;
+}
+
+div.col2 a {
+    text-decoration: none;
+    color: rgba(205, 195, 195, 0.7);
+    transition: 0.2s;
+    margin: 10px 100px;
+}
+
+div.col2 a:hover {
+    color: orange;
+}
+
+.row2 i:hover {
+    color: orange;
+}
+
+.dynamic {
+    position: fixed;
+    z-index: 1;
+    bottom: -20px;
+    right: 40px;
+    background-color: rgba(255, 165, 0, 0.5);
+    border: 1px solid none;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 20px;
+    margin-bottom: 80px;
+}
+
+div.dynamic a {
+    color: white;
+    text-decoration: none;
+}

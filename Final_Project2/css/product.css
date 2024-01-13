@@ -1,0 +1,194 @@
+.prod_full {
+    display:flex;
+    position: relative;
+    margin-top: 0px;
+    background-color: rgb(238, 238, 238);
+    height: 850px;
+}
+
+.prod1 {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 241, 241);
+}
+.prod_img {
+    top: 15%;
+    right: 5%;
+    height: 70%;
+    position: absolute;
+}
+
+
+.image-list {
+    width: 500px;
+    height: 125px;
+    overflow: hidden;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+
+
+}
+  
+.carousel {
+    display: flex;
+    gap: 0;
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+  
+.carousel img {
+    width: 100px;
+    height: auto;
+}
+  
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: none;
+}
+
+div.image-list:hover button {
+    display:block;
+}
+  
+.next-btn {
+    right: 0;
+}
+
+.prod2{
+    position: relative ;
+    width: 55%;
+    height: 100%;
+    background-color: rgb(271, 241, 241);
+}
+
+.prod_info {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    height: 70%;
+    width: 80%;
+    background-color: rgb(271, 241, 241);
+}
+
+input[type="number"] {
+    width: 40px;
+    height: 30px;
+    padding: 8px;
+}
+
+.div_box {
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.div_box input {
+    margin-right: 15px;
+}
+
+.div_box a {
+    text-decoration: none;
+}
+
+.div_box div:hover {
+    background-color: rgb(195, 155, 85);
+}
+
+.div_add {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width : 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart_compare {
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.heart_compare a {
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+}
+
+.heart_compare a:hover {
+    border: 1px solid blue;
+}
+
+
+.key1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.key1 a:hover {
+    color: red;
+}
+
+.key2 {
+    display: flex;
+    align-items: center;
+}
+
+.key2 a {
+    margin-right: 10px;
+}
+
+.key2 i {
+    color: black;
+}
+
+
+
+
+
+
+
+.Description_Reviews {
+    height : 150px;
+    padding: 70px;
+    background-color: white;
+}
+
+.DR_1 {
+    text-align: center;
+}
+
+.DR_1 a {
+    margin: 0 10px;
+    text-decoration: none;
+    color : black;
+    font-size: 20px;
+}
+
+
+.block3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.prd3 {
+    width:300px;
+}
+
+.prd3 img {
+    width:223px;
+}
+
+
+  
+
+  

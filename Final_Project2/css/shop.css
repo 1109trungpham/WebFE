@@ -1,0 +1,35 @@
+.shop_container {
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.shop_container > div {
+    background-color: white;
+    margin: 15px;
+  }
+
+.a_shop {
+    text-decoration: none;
+    color: rgb(167, 124, 124);
+}
+
+.a_shop:hover {
+    color: red;
+}
+
+.catego_shop {
+    margin-left: 125px;
+}
+
+.prod_shop {
+    width: 30%;
+}
+
+
+
+
+
+
+
